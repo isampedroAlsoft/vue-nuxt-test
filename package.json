@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,7 +18,9 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vue/compat": "^3.3.8",
     "autoprefixer": "^10.4.16",
+    "bootstrap-vue": "^2.23.1",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
   }
