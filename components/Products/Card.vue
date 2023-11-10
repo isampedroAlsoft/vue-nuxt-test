@@ -20,6 +20,7 @@
 			style="width: 15rem">
 			<BButton
 				variant="primary"
+				disabled="true"
 				href="#"
 				style="height: 100%; width: 100%">
 				Buy for ${{ product.price }}

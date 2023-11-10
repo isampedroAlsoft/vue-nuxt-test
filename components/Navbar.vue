@@ -11,8 +11,7 @@
 				<BNavbarNav>
 					<BNavItem href="/">Home</BNavItem>
 					<BNavItem
-						href="#"
-						disabled
+						href="/cart"
 						>Cart</BNavItem
 					>
 				</BNavbarNav>
