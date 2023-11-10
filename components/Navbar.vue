@@ -3,13 +3,13 @@
 		<BNavbar
 			variant="info"
 			toggleable="lg">
-			<BNavbarBrand href="#">Product Store</BNavbarBrand>
+			<BNavbarBrand href="/">Product Store</BNavbarBrand>
 			<BNavbarToggle target="nav-collapse" />
 			<BCollapse
 				id="nav-collapse"
 				is-nav>
 				<BNavbarNav>
-					<BNavItem href="#">Home</BNavItem>
+					<BNavItem href="/">Home</BNavItem>
 					<BNavItem
 						href="#"
 						disabled
