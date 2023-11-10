@@ -1,36 +1,27 @@
 <template class="container">
 	<div>
 		<BNavbar
-			toggleable="lg"
-			variant="primary"
-			v-b-color-mode="'dark'">
-			<BNavbarBrand href="#">NavBar</BNavbarBrand>
+			variant="info"
+			toggleable="lg">
+			<BNavbarBrand href="#">Product Store</BNavbarBrand>
 			<BNavbarToggle target="nav-collapse" />
 			<BCollapse
 				id="nav-collapse"
 				is-nav>
 				<BNavbarNav>
-					<BNavItem href="#">Link</BNavItem>
+					<BNavItem href="#">Home</BNavItem>
 					<BNavItem
 						href="#"
 						disabled
-						>Disabled</BNavItem
+						>Cart</BNavItem
 					>
 				</BNavbarNav>
 				<!-- Right aligned nav items -->
 				<BNavbarNav class="ms-auto mb-2 mb-lg-0">
-					<BNavItemDropdown
-						text="Lang"
-						right>
-						<BDropdownItem href="#">EN</BDropdownItem>
-						<BDropdownItem href="#">ES</BDropdownItem>
-						<BDropdownItem href="#">RU</BDropdownItem>
-						<BDropdownItem href="#">FA</BDropdownItem>
-					</BNavItemDropdown>
 					<BNavItemDropdown right>
 						<!-- Using 'button-content' slot -->
 						<template #button-content>
-							<em>User</em>
+							<em>Ignacio</em>
 						</template>
 						<BDropdownItem href="#">Profile</BDropdownItem>
 						<BDropdownItem href="#">Sign Out</BDropdownItem>
